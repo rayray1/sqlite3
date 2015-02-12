@@ -14,7 +14,7 @@ with sqlite3.connect("new.db") as connection:
 
 
 	# create a new table called employees
-	c.execute("CREATE TABLE employees(firstname TEXT, lastname TEXT)")
+	c.execute("CREATE TABLE employees(firstname, lastname)")
 
 
 	# insert data into table
